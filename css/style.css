@@ -315,6 +315,11 @@ em {
     text-decoration: none;
 }
 
+.student-icon {
+    max-width: 200px;
+    height: auto;
+}
+
 .new-student {
     font-family: 'Roboto';
     font-style: normal;
@@ -443,9 +448,11 @@ em {
     .header {
         padding-bottom: 15px;
     }
+
     .site-menu {
         width: 60%;
     }
+
     .students {
         display: flex;
         flex-wrap: wrap;
