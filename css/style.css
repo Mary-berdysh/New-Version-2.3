@@ -316,8 +316,8 @@ em {
 }
 
 .student-icon {
-    max-width: 200px;
-    height: auto;
+    width: 200px;
+    height: 270px;
 }
 
 .new-student {
