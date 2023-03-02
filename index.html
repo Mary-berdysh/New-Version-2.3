@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт группы</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script async src="./js/popup.js"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="./img/logo.svg" alt="logo">
+        <ul class="site-menu">
+            <li><a class="menu-link active-link" href="#" rel="home">Главная</a></li>
+            <li><a class="menu-link" href="./pages/students.html" rel="students">Студенты</a></li>
+            <li><a class="menu-link" href="./pages/about.html" rel="about">О курсе</a></li>
+            <li><a class="menu-link" href="./pages/contacts.html" rel="contacts">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="./index.html">Войти</a>
+
+        <div class="popup-box">
+            <img src="./img/close-button.svg" alt="close button" class="popup-close">
+            <h2 class="popup-header">Войти на сайт</h2>
+            <form class="popup-form">
+                <input class="popup-input" name="login" type="text" placeholder="Логин" required>
+                <input class="popup-input" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+
+    </header>
+    <main class="main">
+        <h1>Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img class="img-style" src="./img/class.png" alt="">
+        <h2>Для кого этот курс</h2>
+        <div class="intro-block">
+            <p class="par">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В
+                начале
+                курса вы узнаете о том, как устроен Интернет и веб-сайты.<br>
+                Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать
+                папки и
+                файлы, устанавливать программы).</p>
+            <aside class="intro-aside">
+                <blockquote class="intro-quote">Учимся вместе!</blockquote>
+            </aside>
+        </div>
+        <h2>Чему вы научитесь</h2>
+        <p class="par">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков
+            <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт
+            нашей группы по этому макету. А затем вы <em>сами</em> сверстаете свои личные странички в качестве домашнего
+            задания и мы выложим все это на сервер.
+        </p>
+    </main>
+    <footer class="footer">
+        <p class="copyright">2022 &copy; <a class="footer-link" href="">учебный центр</a> </p>
+    </footer>
+</body>
+
+</html>
